@@ -1,0 +1,24 @@
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart-section {
+  margin-bottom: 20px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cart li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}

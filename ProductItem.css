@@ -1,0 +1,48 @@
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.product-item h3 {
+  margin: 0 0 10px;
+}
+
+.product-item p {
+  margin: 0 0 10px;
+}
+
+.product-item button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+.product-item button.remove {
+  background-color: #dc3545;
+}
+
+.product-item button.remove:hover {
+  background-color: #c82333;
+}
+
+.product-item input {
+  width: 50px;
+  text-align: center;
+}
